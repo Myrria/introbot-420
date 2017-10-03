@@ -9,4 +9,15 @@ valor2 = ["a segunda lei de Asimov", "a segunda lei de Newton", "aquela missão 
 
 valor3 = ["o Ars Goetia", "a terceira lei de Asimov", "a terceira lei de Newton", "変態", "a guerra entre Pepsi e Coca-Cola que rolou nos anos 80", "A E S T H E T I C S", "memes de alta qualidade", "os gays", "complexo de édipo", "nudes enviados por engano", "invadir a Polônia", "invadir a Rússia *NO INVERNO*", "implantes cibernéticos", "o sangue de cristo", "morrer de desinteria", "jogar uma virgem num vulcão para agradar ao deus do fogo. THOLA UNKULUNKULU WOMOTO!", "*YOU MUST CONSTRUCT ADDITIONAL PYLONS*", "a mão invisível do mercado", "chapéus legais", "o Stephen Hawking fazendo phone sex", "tartarugas de ataque modificadas biologicamente para cuspir ácido sulfúrico tipo um dragão", "macacos fumando charutos", "o verdadeiro sentido do Natal", "asiáticos que não são bons em matemática", "a ira de Vladmir Putin", "ficar muito, _muito_ chapado", "se casar, ter uns filhos, comprar umas paradas, se aposentar e morrer", "ph'nglui mglw'nafh cthulhu r'lyeh wgah'nagl fhtagn", ] 
 
-print("Olá! Bem vind@ ao last.fm, um grupo aonde são prezados e respeitados os valores da família tradicional brasileira, dentre eles", random.choice(valor1),",", random.choice(valor2),", e", random.choice(valor3))
+v1 = random.choice(valor1)
+v2 = random.choice(valor2)
+v3 = random.choice(valor3)
+
+
+print("Olá! Bem vind@ ao last.fm, um grupo aonde são prezados e respeitados os valores da família tradicional brasileira, dentre eles", v1,",", v2,", e", v3)
+
+print("last.ID:",valor1.index(v1),valor2.index(v2),valor3.index(v3))
+
+#print(len(valor1))
+#print(len(valor2))
+#print(len(valor3))
