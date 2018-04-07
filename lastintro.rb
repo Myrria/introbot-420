@@ -10,6 +10,6 @@ v3 = valor.sample
 id1 = "%02X" % "#{valor.index(v1)}"
 id2 = "%02X" % "#{valor.index(v2)}"
 id3 = "%02X" % "#{valor.index(v3)}"
-puts ("Olá! Bem vind@ ao last.fm, um grupo aonde são prezados e respeitados os valores da família tradicional brasileira, dentre eles #{v1}, #{v2}, e #{v3}")
+puts ("Olá! Bem vind@ ao last.fm, um grupo onde são prezados e respeitados os valores da família tradicional brasileira, dentre eles #{v1}, #{v2}, e #{v3}")
 
 puts ("last.ID: #{id1} #{id2} #{id3} [#{Date.today}]" )
